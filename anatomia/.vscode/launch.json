@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExemploExcecao",
+            "request": "launch",
+            "mainClass": "ExemploExcecao",
+            "projectName": "anatomia_9cdc32ae"
+        },
+        {
+            "type": "java",
             "name": "SobreMimScanner",
             "request": "launch",
             "mainClass": "SobreMimScanner",
@@ -36,13 +43,7 @@
             "name": "SobreMim",
             "request": "launch",
             "mainClass": "SobreMim",
-            "projectName": "anatomia_9cdc32ae",
-            // "args": [
-            //     "Vitorio",
-            //     "Correa",
-            //     "20",
-            //     "1.75"
-            // ]
+            "projectName": "anatomia_9cdc32ae"
         }
     ]
 }
