@@ -1,6 +1,7 @@
 public class SobreMim {
 
     public static void main(String[] args){
+        try{
         String nome = args[0];
         String sobrenome = args[1];
         int idade = Integer.valueOf(args[2]);
@@ -11,5 +12,8 @@ public class SobreMim {
         System.out.println("Tenho " + idade + " anos");
         System.out.println("Minha altura é " + altura + "cm");
 
+        }catch(java.lang.ArrayIndexOutOfBoundsException e){
+            System.out.println("Não foi passado as informações para o programa");
+        }
     }
 }
