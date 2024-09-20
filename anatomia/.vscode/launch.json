@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculadoraDeMedias",
+            "request": "launch",
+            "mainClass": "Debugging.CalculadoraDeMedias",
+            "projectName": "anatomia_9cdc32ae"
+        },
+        {
+            "type": "java",
             "name": "ExemploExcecao",
             "request": "launch",
             "mainClass": "ExemploExcecao",
